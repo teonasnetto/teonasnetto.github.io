@@ -18,6 +18,10 @@ body {
     position: relative;
 }
 
+.popover {
+    z-index: 1;
+}
+
 h1,
 h2,
 h3,
@@ -29,6 +33,7 @@ h6 {
 
 a {
     color: #00BCD4;
+    transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -ms-transition: all 0.4s ease-in-out;
@@ -76,6 +81,7 @@ a.btn:hover {
 }
 
 #topcontrol {
+    transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -ms-transition: all 0.4s ease-in-out;
@@ -422,10 +428,6 @@ a.btn:hover {
     font-weight: 300;
 }
 
-.skills-section .top-skills {
-
-}
-
 .skills-section .top-skills .item {
     margin-bottom: 45px;
 }
@@ -453,7 +455,7 @@ a.btn:hover {
 }
 
 .chart-easy-pie {
-    positon: relative;
+    position: relative;
 }
 
 .chart {
